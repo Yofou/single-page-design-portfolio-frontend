@@ -6,6 +6,8 @@
 	import MyWork from "$lib/sections/my-work.svelte";
 </script>
 
+<h1 class="sr-only">Single Page Design Portfolio Frontend</h1>
+
 <Nav aria-label="Primary Consulation navigation" />
 
 <main>

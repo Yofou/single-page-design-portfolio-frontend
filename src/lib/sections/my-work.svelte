@@ -16,10 +16,10 @@
 
 	<div class="flex gap-4">
 		<CarouselButton on:click={onLeft}>
-			<img src="/arrow.svg" alt="">
+			<img src="/arrow.svg" alt="left-arrow">
 		</CarouselButton>
 		<CarouselButton on:click={onRight}>
-			<img class="rotate-180" src="/arrow.svg" alt="">
+			<img class="rotate-180" src="/arrow.svg" alt="right-arrow">
 		</CarouselButton>
 	</div>
 </section>
