@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "1.0.0-next.66",
 		"embla-carousel": "7.0.0-rc05",
 		"sass": "^1.54.0",
 		"svelte-embla": "^0.0.7"
