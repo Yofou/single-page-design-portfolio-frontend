@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-heading-l {
+	  @apply font-jaka text-[36px] md:text-[44px] lg:text-[3.5rem] leading-[50px] md:leading-[60px] lg:leading-[70px];
+  }
+  .text-heading-m {
+	  @apply font-jaka text-[2.5rem] leading-[51px];
+  }
+  .text-heading-s {
+	  @apply font-jaka text-[26px] md:text-[2rem] leading-[40px];
+  }
+  .text-body {
+	  @apply font-jaka text-[1rem] md:text-[1.125rem] leading-[28px];
+  }
+}

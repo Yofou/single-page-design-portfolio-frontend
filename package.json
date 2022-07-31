@@ -34,6 +34,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"sass": "^1.54.0"
+		"embla-carousel": "7.0.0-rc05",
+		"sass": "^1.54.0",
+		"svelte-embla": "^0.0.7"
 	}
 }

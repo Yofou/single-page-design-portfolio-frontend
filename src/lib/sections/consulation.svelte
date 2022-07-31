@@ -2,11 +2,11 @@
 	import Button from "../components/button.svelte";
 </script>
 
-<section class="w-full items-center mt-[136px] flex flex-col md:flex-row gap-[40px] md:gap-[125px] overflow-hidden">
+<section class="w-full items-center mt-[100px] md:mt-[120px] lg:mt-[136px] flex flex-col lg:flex-row gap-[40px] lg:gap-[125px] overflow-hidden">
 	<img class="w-[445px]" src="/amy.png" alt="Amy">
 
-	<div class="w-full h-full flex flex-col gap-[32px] text-center md:text-left">
-		<h2 class="text-heading-m text-black font-bold">
+	<div class="w-full h-full flex flex-col gap-6 lg:gap-8 text-center md:text-left">
+		<h2 class="text-heading-s md:text-heading-m text-black font-bold">
 			I’m Amy, and I’d love to work on your next project
 		</h2>
 		<p class="mt-[2px] text-body font-medium text-grey">

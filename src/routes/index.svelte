@@ -3,12 +3,18 @@
 	import DesignSolutions from "$lib/sections/design-solutions.svelte";
 	import Consulation from "$lib/sections/consulation.svelte";
 	import ContactMe from "$lib/sections/contact-me.svelte";
+	import MyWork from "$lib/sections/my-work.svelte";
 </script>
 
-<Nav />
+<Nav aria-label="Primary Consulation navigation" />
+
 <main>
 	<DesignSolutions />
 	<Consulation />
+	<MyWork />
 	<ContactMe />
-	<Nav class="mt-[54px]" />
 </main>
+
+<footer>
+	<Nav aria-label="Secondary Consulation navigation" class="my-[54px]" />
+</footer>

@@ -15,6 +15,6 @@
 
 <style lang="scss">
 	.button {
-		@apply px-[45px] py-[14px] rounded-full;
+		@apply px-[27px] md:px-[45px] py-[10px] md:py-[14px] rounded-full;
 	}
 </style>

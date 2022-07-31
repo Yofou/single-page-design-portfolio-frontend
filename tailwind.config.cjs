@@ -22,31 +22,5 @@ module.exports = {
 		fontFamily: {
 			jaka: ["'Plus Jakarta Sans'", 'sans-serif']
 		}
-	},
-	plugins: [
-		plugin(({ addUtilities, theme }) => {
-			addUtilities({
-				'.text-heading-l': {
-					fontFamily: theme('fontFamily.jaka'),
-					fontSize: '3.5rem',
-					lineHeight: '70px'
-				},
-				'.text-heading-m': {
-					fontFamily: theme('fontFamily.jaka'),
-					fontSize: '2.5rem',
-					lineHeight: '51px'
-				},
-				'.text-heading-s': {
-					fontFamily: theme('fontFamily.jaka'),
-					fontSize: '2rem',
-					lineHeight: '40px'
-				},
-				'.text-body': {
-					fontFamily: theme('fontFamily.jaka'),
-					fontSize: '1.125rem',
-					lineHeight: '28px'
-				}
-			});
-		})
-	]
+	}
 };
