@@ -18,6 +18,6 @@
 
 <style>
 	.embla-inner img {
-		@apply rounded-[10px]
+		@apply rounded-[10px] h-full;
 	}
 </style>
