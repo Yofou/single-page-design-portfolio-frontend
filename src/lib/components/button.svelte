@@ -4,11 +4,11 @@
 </script>
 
 {#if isLink}
-	<a class="button {$$props.class}" {href}>
+	<a class="button {$$props.class ?? ''}" {href}>
 		<slot />
 	</a>
 {:else}	
-	<button class="button {$$props.class}">
+	<button class="button {$$props.class ?? ''}">
 		<slot />
 	</button>
 {/if}
